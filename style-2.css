@@ -16,8 +16,6 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    /* em tese eu não precisaria colocar top e left: 0 uma vez que nativamnete "posição inicia-se 
-    da esquerda para a direita e de cima para baixo" */
 }
 
 .right_up{

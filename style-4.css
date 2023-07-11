@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-/* Exercicio 4 */
 
 .cx{
     width: 100px;
@@ -28,8 +27,8 @@
 .inferior{
     position: fixed;
     margin: 0;
-    bottom: 5px;
-    right: 5px;
+    bottom: 1px;
+    right: 1px;
 }
 
 .c_08{
