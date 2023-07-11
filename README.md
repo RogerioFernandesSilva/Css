@@ -1,7 +1,7 @@
 # Atividade Posicionamento Css
 Atividade Pratica Posicionamento Css
 
-1. Para esse exercício você precisará criar 5 <div> (azul, vermelha, preta, verde e amarela).
+1. Para esse exercício você precisará criar 5 "div" (azul, vermelha, preta, verde e amarela).
 Configure os tamanhos e posicionamento
 dos elementos para que a página html replique a imagem abaixo no navegador:
 
