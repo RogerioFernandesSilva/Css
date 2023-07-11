@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(204, 195, 195);
+}
+
+.blue,.red,.black,.green,.yellow{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    /* transform: translate(-50%, -50%); substituiu a primeira parametrização que era margin -250px 0 0 -250px 
+    (se o elemento muda de tamanho o "cálculo" já não funciona mais 
+    - quando vc usa o translate com a porcentagem ele vai calcular sempre certo, independente do tamanho do elemento. */
+}
+
+.blue{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    position: relative;
+     /*a posição do primeiro elemento é relativa em relação a minha tela/viewport 
+     - já os demais serão absolutos e relação a esse meu primeiro elemento. */
+}
+
+.red{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+.black{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+
+.green{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}

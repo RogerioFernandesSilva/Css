@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Exercicio 4 */
+
+.cx{
+    width: 100px;
+    height: 100px;
+    background-color: #222f3e;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.caixa{
+    width: 340px;
+    position: relative;
+    top:10%;
+    left: 0.5%;
+}
+
+.c_06{
+    margin-right: 50px;    
+}
+
+.inferior{
+    position: fixed;
+    margin: 0;
+    bottom: 5px;
+    right: 5px;
+}
+
+.c_08{
+   right: 110px; 
+}
+
+.c_09{
+    right: 220px; 
+ }
+
+ .c_10{
+    bottom: 110px; 
+ }
+
+ .c_11{
+    right: 110px;
+    bottom: 110px; 
+ }
+
+ .c_12{
+    bottom: 220px; 
+ }

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(204, 195, 195);
+}
+
+.left_up{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* em tese eu não precisaria colocar top e left: 0 uma vez que nativamnete "posição inicia-se 
+    da esquerda para a direita e de cima para baixo" */
+}
+
+.right_up{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.right_down{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.left_down{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}

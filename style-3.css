@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(204, 195, 195);
+}
+
+.box01 p{
+    width: 700px;
+    height: 220px;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    border-radius: 30px;
+    overflow-y: hidden;
+    text-align: right;
+    margin-top: 50px;
+    /* hidden - se o texto estourar a div ele não aparece, é "cortado" */
+}
+
+.box02 p{
+    width: 700px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    border: 3px solid red;
+    overflow: auto;
+    text-align: left;
+    margin-top: 50px;
+    /* overflow AUTO - no caso do texto estourar o scroll é inserido */
+}
